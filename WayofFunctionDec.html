@@ -1,0 +1,22 @@
+<!--  1. Function Declaration: These Functions Are Hoisted.
+2. Function Expression: These Function are Not Hoisted.
+3. Arrow Function: Small Anonymous Function used for Callbacks -->
+
+<!-- 
+
+
+Write a Progra to Print Greeting Message To User --> 
+
+<script>
+  function greet1(name) {
+    console.log('Hello', name);
+
+}  
+greet1('Akash');
+
+let greet2 = function(name) {
+    console.log('Hello', name);
+}
+
+let greet3 = (name) => console.log("Hello", name);
+</script>

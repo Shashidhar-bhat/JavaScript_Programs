@@ -1,0 +1,52 @@
+<script>
+arr = [1,2,3,4];
+console.log(arr);
+even = arr.filter((ele)=> ele % 2 === 0);
+console.log(even);
+
+</script>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+<script>
+arr = [1,2,3,4];
+even = arr.filter(function(ele){
+         if(ele % 2 === 0){
+            return ele;
+         }
+});
+console.log(even);
+
+</script>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+<script>
+    arr = [1,2,3,4]
+    sq = arr.map((ele)=> ele* ele );
+    console.log(sq);
+</script>
+<!-- -------------------------------------------------------------------------------------------- -->
+<script>
+    arr = [1,2,3,4]
+    sq = arr.map(function(ele) {
+            return ele * ele;
+    } );
+    console.log(sq);
+</script>
+<!-- -------------------------------------------------------------------------------------------- -->
+
+<script>
+ arr = [1,2,3,4]
+ product = arr.reduce(function(acc,ele) {
+    return acc * ele;
+    },1);
+    console.log(product);
+</script>
+<!-- -------------------------------------------------------------------------------------------- -->
+<script>
+    product = arr.reduce((acc,ele) => acc * ele,1);
+    console.log(product);
+</script>
+<!-- -------------------------------------------------------------------------------------------- -->
+ <script>
+    
+ </script>

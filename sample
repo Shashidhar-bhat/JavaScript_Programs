@@ -1,0 +1,35 @@
+
+<script>
+    //function Declaration
+    function add(a,b) {
+        return a+b;
+
+    }
+    //function Expression
+   let add2 = function add1(a,b) {
+        return a+b;
+
+    }
+   let res = add2(100,200);
+    console.log("Res Value is : ", res);
+
+    function mul(a,b) {
+        console.log(a * b);
+
+    }
+    mul(10, 20);
+    //function Expression
+   let mul2 = function mul2(a,b) {
+        console.log(a * b);
+
+    }
+  mul2(10 , 20);
+
+
+  
+  (a,b) => {
+
+  }
+    
+
+</script>

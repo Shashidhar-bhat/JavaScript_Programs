@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title> getElement</title>
+</head>
+<body>
+    <p class ="container">Para1</p>
+    <p class ="container">Para2</p>
+    <p class ="container">Para3</p>
+    <button onClick = "fun()">Click</button>
+
+    <script>
+        function fun() {
+            const target = document.getElementsByClassName("container");
+            console.log("Length Before DOM update is : ", target.length);
+
+            const
+
+            const newEle = document.createElement('p'); //<p></p>
+            newEle.textContent = 'Hello'; 
+            newEle.classList.add('container');
+            document.body.appendChild(newEle);
+            newFile.classListconsole.log("Length after DOM Update is:", target.length);
+
+        }
+    </script>
+</body>
+</html>
